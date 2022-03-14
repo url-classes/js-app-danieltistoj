@@ -1,11 +1,6 @@
+@import './style/app.css';
+@import './style/drumkit.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-#app {
-  @apply text-center mt-10;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}

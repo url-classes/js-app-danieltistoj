@@ -7,7 +7,29 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <main class="app">
+      <div class="container mx-auto">
+        <div class="drumkit">
+          <div class="drumkit__key">
+            <kdb>A</kdb>
+            <span class="sound">clap</span>
+          </div>
+          <div class="drumkit__key">
+            <kdb>S</kdb>
+            <span class="sound">clap</span>
+          </div>
+          <div class="drumkit__key">
+            <kdb>D</kdb>
+            <span class="sound">clap</span>
+          </div>
+        </div>
+      </div>
+
+      
+    </main>
+    <audio src="/Static/audio/static_sounds_kick.wav" data-key="a"></audio>
+    <audio src="/Static/audio/static_sounds_boom.wav" data-key="s"></audio>
+    <audio src="/Static/audio/static_sounds_hihat.wav" data-key="d"></audio>
+    <script type="module" src="/drumkit.js"></script>
   </body>
 </html>

@@ -1,0 +1,7 @@
+.app{
+    @apply w-screen h-screen overflow-hidden box-border;
+    @apply flex justify-center items-center;
+
+    background-image: url('/img/bg.jpeg');
+    background-size: cover;
+}

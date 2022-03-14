@@ -1,0 +1,15 @@
+.drumkit{
+    @apply w-full flex flex-row flex-nowrap;
+    @apply items-center justify-center;
+    &__key{
+        @apply p-6 m-3 text-center flex flex-col;
+        @apply items-center text-white;
+        @apply rounded-lg border-4 border-white;
+        tansition:all 0.07s  ease-in-out;
+    }
+    .playing{
+        border-color: #ffc600;
+        box-shadow: 0 0 10px #ffc600;
+
+    }
+}
